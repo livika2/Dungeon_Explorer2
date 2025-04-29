@@ -10,6 +10,10 @@ internal class Program
     /// <param name="args">The command line arguments, if any.</param>
     static void Main(string[] args)
     {
+        var tester = new Testing();
+        tester.RunAllTests();
+
+
         // Create an instance of the Game class
         Game game = new Game(); // Initialise a new Game object
 

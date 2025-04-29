@@ -38,6 +38,7 @@ namespace Dungeon_Explorer2
         /// </summary>
         public void Start()
         {
+            Console.WriteLine("");
             Console.WriteLine("Welcome to Dungeon Explorer!");
             Initialise();
 
